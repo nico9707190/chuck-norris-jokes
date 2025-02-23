@@ -1,29 +1,40 @@
 <!DOCTYPE html>
-<input lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/index.css">
     <title>Chuck Norris Jokes</title>
 </head>
-    <form action="">
-        <select name="" id="">
-            <option value="animal">Animal</option>
-            <option value="animal">Career</option>
-            <option value="animal">Celebrity</option>
-            <option value="animal">Dev</option>
-            <option value="animal">Explicit</option>
-            <option value="animal">Fashion</option>
-            <option value="animal">Food</option>
-            <option value="animal">History</option>
-            <option value="animal">Money</option>
-            <option value="animal">Movie</option>
-            <option value="animal">Music</option>
-            <option value="animal">Political</option>
-            <option value="animal">Religion</option>
-            <option value="animal">Science</option>
-            <option value="animal">Sport</option>
-            <option value="animal">Travel</option>
+
+<body>
+    <div class="centro">
+        <h1 class="titolo">CHUCK NORRIS JOKES</h1>
+        <select id="categorie">
+            <option value="all">all</option>
+            <option value="animal">animal</option>
+            <option value="career">career</option>
+            <option value="celebrity">celebrity</option>
+            <option value="dev">dev</option>
+            <option value="explicit">explicit</option>
+            <option value="fashion">fashion</option>
+            <option value="food">food</option>
+            <option value="history">history</option>
+            <option value="money">money</option>
+            <option value="movie">movie</option>
+            <option value="music">music</option>
+            <option value="political">political</option>
+            <option value="religion">religion</option>
+            <option value="science">science</option>
+            <option value="sport">sport</option>
+            <option value="travel">travel</option>
         </select>
-    </form>
+    </div>
+    <div class="imgss">
+        <img src="/static/img/frank-norris.webp" alt="chuck-norris">
+    </div>
+    <input type="button" value="NEW JOKE" id="button">
+    <h2 class="joke"></h2>
+    <script src="static/js/script.js"></script>    
 </body>
 </html>

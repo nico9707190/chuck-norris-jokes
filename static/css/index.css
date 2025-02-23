@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.centro {
+    margin-bottom: 20px;
+}
+
+.titolo {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+#categorie {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px black;
+    background-color: white;
+}
+
+.imgss img {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#button {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: blue;
+}
+
+.joke {
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+    font-style: italic;
+}
